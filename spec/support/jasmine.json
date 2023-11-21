@@ -6,6 +6,7 @@
     "**/*[sS]pec.?(m)js"
   ],
   "helpers": [
+    
     "helpers/**/*.?(m)js"
   ],
   "env": {
