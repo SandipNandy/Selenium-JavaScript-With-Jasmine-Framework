@@ -14,6 +14,5 @@ describe('Assertions in Web DriverIO', () => {
         // await Dropdown.selectByAttribute('value', 'consult');
         // await browser.pause('4000');
 
-
     });
 })
