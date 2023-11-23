@@ -6,12 +6,3 @@ Here Selenium JavaScript with Jasmine framework demo has been shown with Paralle
 
 
 
-
-
-
-
-
-
-
-
-
