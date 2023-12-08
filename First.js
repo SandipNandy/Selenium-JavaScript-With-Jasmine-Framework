@@ -19,7 +19,6 @@ describe('First Test', function () {
         var searchString = "Automation testing with Selenium and JavaScript";
         //To wait for browser to build and launch properly
         //var driver = await new Builder().forBrowser("chrome").build();
-
         //To fetch http://google.com from the browser with our code.
         driver.get("http://google.com");
 
