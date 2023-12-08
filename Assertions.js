@@ -6,7 +6,6 @@ describe('Assertions in Web DriverIO', () => {
         console.log(await browser.getTitle());
         
         await $("#username").setValue("rahulshettyacademy");
-        
         await $('#password').setValue("learning");
         // var radioButton = await $$('.customradio');
         // await radioButton[1].$("input[id='usertype']").click();
