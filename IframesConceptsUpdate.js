@@ -27,6 +27,7 @@ describe('First Test', function () {
         await driver.manage().window().maximize();
         
         //await driver.sleep(3000);
+        
         await driver.wait(until.urlContains('https://courses.letskodeit.com/practice'), 16000);
         console.log("Window 0 (Parent Page) : ", await driver.getTitle());
 
