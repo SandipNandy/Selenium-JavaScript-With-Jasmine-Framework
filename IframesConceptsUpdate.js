@@ -9,6 +9,7 @@ const { By, Key, Builder } = require("selenium-webdriver");
 const webdriver = require('selenium-webdriver');
 
 require("chromedriver");
+
 //require("geckodriver");
 //require("iedriver");
 jasmine.DEFAULT_TIMEOUT_INTERVAL = 80 * 1000;
