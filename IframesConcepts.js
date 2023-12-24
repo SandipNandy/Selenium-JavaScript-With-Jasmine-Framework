@@ -30,7 +30,6 @@ describe('First Test', function () {
         //JavascriptExecutor js = (JavascriptExecutor) driver;
         //driver.executeScript
         //driver.executeScript("window.scrollTo(0, document.body.scrollHeight)");//for scrolling to the end
-
         driver.executeScript("window.scrollTo(0, 500)");
 
         //switch to frame using id
