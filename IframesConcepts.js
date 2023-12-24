@@ -40,6 +40,7 @@ describe('First Test', function () {
 
         //switch to frame using web element
         //await driver.switchTo().frame(driver.findElement(By.webLocator('frame-web-locator-property')));
+        
         //await driver.sleep(3000);
           await driver.switchTo().frame('courses-iframe');
           console.log('URLs : ',await driver.getCurrentUrl());
