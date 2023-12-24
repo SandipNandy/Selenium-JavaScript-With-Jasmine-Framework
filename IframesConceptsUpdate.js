@@ -28,7 +28,6 @@ describe('First Test', function () {
         //driver.executeScript("window.scrollTo(0, document.body.scrollHeight)");//for scrolling to the end
         //switch to frame using id
         //await driver.switchTo().frame('frame-id');
-
         //switch to frame using name
         //await driver.switchTo().frame('frame-name');
 
