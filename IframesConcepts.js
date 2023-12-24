@@ -2,7 +2,6 @@ var AllureReporter = require('jasmine-allure-reporter');
 const { until } = require('selenium-webdriver');
 
 jasmine.getEnv().addReporter(new AllureReporter({
-    
     resultsDir: 'allure-results'
     
 }));
