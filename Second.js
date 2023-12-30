@@ -1,6 +1,5 @@
 //https://www.lambdatest.com/blog/automation-testing-with-selenium-javascript/
 //https://www.browserstack.com/docs/automate/selenium/getting-started/nodejs/run-tests-in-parallel
-
 //https://www.selenium.dev/documentation/webdriver/elements/
 var AllureReporter = require('jasmine-allure-reporter');
 
