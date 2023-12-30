@@ -22,7 +22,6 @@ describe('First Test', function () {
         console.log('<----- Starting to execute test case ----->');
         await runTestWithCaps1(driver);
         console.log('<----- Test case execution completed ----->');
-
     });
     it('My Second it block', async function () {
         console.log('<-----2 Starting to execute test case ----->');
