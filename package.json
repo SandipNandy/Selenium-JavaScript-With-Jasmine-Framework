@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    
     "chromedriver": "^99.0.0",
     
     "geckodriver": "^3.0.1",
