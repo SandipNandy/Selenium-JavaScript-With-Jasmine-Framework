@@ -41,6 +41,7 @@ describe('First Test', function () {
         await runTestWithCaps2(driver);
 
         console.log('<-----2 Test case execution completed ----->');
+        
         await driver.quit();
     });
 
