@@ -22,6 +22,7 @@ const driver = new webdriver.Builder().usingServer('http://192.168.0.101:4444/wd
 describe('First Test', function () {
 
     it('My first it block', async function () {
+        
         console.log('<----- Starting to execute test case ----->');
         await runTestWithCaps1(driver);
         console.log('<----- Test case execution completed ----->');
