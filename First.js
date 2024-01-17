@@ -49,6 +49,7 @@ describe('First Test', function () {
         });
         //It is always a safe practice to quit the browser after execution
         //await driver.quit();
+        
         console.log('<----- Test case execution completed ----->');
 
     });
