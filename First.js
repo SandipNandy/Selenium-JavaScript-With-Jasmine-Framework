@@ -30,6 +30,7 @@ describe('First Test', function () {
         //await runTestWithCaps1(driver);
         //runTestWithCaps1(driver);
         var searchString = "Automation testing with Selenium and JavaScript";
+        
         //To wait for browser to build and launch properly
         //var driver = await new Builder().forBrowser("chrome").build();
         //To fetch http://google.com from the browser with our code.
