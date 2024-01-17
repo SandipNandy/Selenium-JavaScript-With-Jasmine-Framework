@@ -56,6 +56,7 @@ describe('First Test', function () {
     xit('My Second it block', function () {
         
         console.log('<-----2 Starting to execute test case ----->');
+        
         //await runTestWithCaps()
         //const driver = new webdriver.Builder().usingServer('http://192.168.0.101:4444/wd/hub').forBrowser("chrome").build();
         //await runTestWithCaps2(driver);
