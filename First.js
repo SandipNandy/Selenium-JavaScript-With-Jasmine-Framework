@@ -84,6 +84,7 @@ const runTestWithCaps1 = async function (driver) {
 
     //Verify the page title and print it
     var title = await driver.getTitle();
+    
     console.log('Title is:', title);
 
     //It is always a safe practice to quit the browser after execution
