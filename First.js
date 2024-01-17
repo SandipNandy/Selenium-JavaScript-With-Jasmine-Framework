@@ -44,6 +44,7 @@ describe('First Test', function () {
         var title = driver.getTitle();
         
         title.then((title) => {
+            
             console.log('Title is:', title);
         });
         //It is always a safe practice to quit the browser after execution
