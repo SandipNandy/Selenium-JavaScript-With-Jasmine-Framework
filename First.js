@@ -59,6 +59,7 @@ describe('First Test', function () {
         
         //await runTestWithCaps()
         //const driver = new webdriver.Builder().usingServer('http://192.168.0.101:4444/wd/hub').forBrowser("chrome").build();
+        
         //await runTestWithCaps2(driver);
         runTestWithCaps2(driver);
 
