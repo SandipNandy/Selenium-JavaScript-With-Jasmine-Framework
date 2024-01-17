@@ -26,6 +26,7 @@ describe('First Test', function () {
     it('My first it block', function () {
         
         console.log('<----- Starting to execute test case ----->');
+        
         //await runTestWithCaps1(driver);
         //runTestWithCaps1(driver);
         var searchString = "Automation testing with Selenium and JavaScript";
