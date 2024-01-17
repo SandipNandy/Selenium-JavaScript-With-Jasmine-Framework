@@ -38,6 +38,7 @@ describe('First Test', function () {
         //To send a search query by passing the value in searchString.
         
         driver.findElement(By.name("q")).sendKeys(searchString, Key.RETURN);
+        
         //Verify the page title and print it
         var title = driver.getTitle();
         title.then((title) => {
