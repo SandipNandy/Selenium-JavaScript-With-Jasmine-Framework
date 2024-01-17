@@ -40,6 +40,7 @@ describe('First Test', function () {
         driver.findElement(By.name("q")).sendKeys(searchString, Key.RETURN);
         
         //Verify the page title and print it
+        
         var title = driver.getTitle();
         title.then((title) => {
             console.log('Title is:', title);
