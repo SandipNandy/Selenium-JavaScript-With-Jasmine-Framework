@@ -96,6 +96,7 @@ const runTestWithCaps2 = async function (driver) {
     var searchString = "Selenium and JavaScript";
     
     await driver.get("http://google.com");
+    
     //To send a search query by passing the value in searchString.
     await driver.findElement(By.name("q")).sendKeys(searchString, Key.RETURN);
 
