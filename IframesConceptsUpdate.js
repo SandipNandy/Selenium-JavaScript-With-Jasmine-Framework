@@ -12,7 +12,6 @@ require("chromedriver");
 //require("iedriver");
 
 jasmine.DEFAULT_TIMEOUT_INTERVAL = 80 * 1000;
-
 jasmine.getEnv().defaultTimeoutInterval = 60000;
 
 //const driver = new webdriver.Builder().usingServer('http://192.168.0.100:4444/wd/hub').forBrowser("chrome").build();
