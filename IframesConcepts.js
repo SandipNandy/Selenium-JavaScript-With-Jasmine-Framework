@@ -27,7 +27,6 @@ var driver = new Builder().forBrowser("chrome").build();
 
 describe('First Test', function () {
     it('Launch URL', async function () {
-        
         await driver.get("https://courses.letskodeit.com/practice");
         
         await driver.manage().window().maximize();
