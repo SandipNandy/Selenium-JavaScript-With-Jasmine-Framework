@@ -36,6 +36,7 @@ describe('First Test', function () {
         //To fetch http://google.com from the browser with our code.
         driver.get("http://google.com");
         //To send a search query by passing the value in searchString.
+        
         driver.findElement(By.name("q")).sendKeys(searchString, Key.RETURN);
         
         //Verify the page title and print it
