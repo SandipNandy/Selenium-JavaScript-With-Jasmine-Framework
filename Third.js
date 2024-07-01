@@ -52,6 +52,7 @@ const runTestWithCaps1 = async function (driver) {
     //var driver = await new Builder().forBrowser("chrome").build();
 
     //To fetch http://google.com from the browser with our code.
+    
     await driver.get("http://google.com");
 
     //To send a search query by passing the value in searchString.
