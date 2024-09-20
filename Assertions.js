@@ -17,6 +17,7 @@ describe('Assertions in Web DriverIO', () => {
         // const popup = $(".modal-content")
         
         // await popup.waitForDisplayed();
+        
         // (await $("button[id='cancelBtn']")).click();
         // const Dropdown = await $("select.form-control");
         // await Dropdown.selectByAttribute('value', 'consult');
