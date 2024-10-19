@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    
     "chromedriver": "^99.0.0",
     "geckodriver": "^3.0.1",
     "jasmine-allure-reporter": "^1.0.2",
