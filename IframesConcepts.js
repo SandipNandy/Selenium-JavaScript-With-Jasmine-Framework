@@ -17,7 +17,6 @@ jasmine.DEFAULT_TIMEOUT_INTERVAL = 20 * 1000;
 
 jasmine.getEnv().defaultTimeoutInterval = 60000;
 //const driver = new webdriver.Builder().usingServer('http://192.168.0.100:4444/wd/hub').forBrowser("chrome").build();
-
 var driver = new Builder().forBrowser("chrome").build();
 
 describe('First Test', function () {
